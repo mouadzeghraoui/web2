@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Borealis AI</title>
+  <title>PasCal</title>
   <style>
     .WebChatContainer {
       position: absolute;
@@ -53,6 +53,7 @@
       await instance.render();
       // Automatically open the chat window
       instance.openWindow();
+      instance.restartConversation();
     }
 
     // This is the standard web chat configuration object. You can modify these values with the embed code for your
